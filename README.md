@@ -37,11 +37,11 @@ Every two minutes, a subtle modal will appear, asking if you would care to hear 
 Follow these steps to run the application locally on your machine.
 
 Prerequisites
-'''
+```
 Node.js (v18 or higher)
 
 A Google Gemini API Key (Free)
-'''
+```
 
 Installation Steps
 
@@ -51,32 +51,34 @@ Go to the Releases tab on this GitHub repository and download the latest .zip or
 #2. Navigate to the Directory:
 Open your terminal or command prompt and navigate to the extracted folder:
 
-'''
+```
 sh
 cd macondo-lexicon
-'''
+```
 
 #3. Install Dependencies:
 Install the necessary Node modules:
 
-'''
+```
 sh
 npm install
-'''
+```
 
-Configure the API Key:
-Open src/App.jsx (or your designated environment file if configured) and locate the Gemini API Configuration section. Add your Gemini API key:
+#4. Configure the API Key:
+```
+Open src/App.jsx #(or your designated environment file if configured) and locate the Gemini API Configuration section. Add your Gemini API key:
 
 const apiKey = "YOUR_GEMINI_API_KEY_HERE";
+```
 
-
-Start the Development Server:
+#5. Start the Development Server:
 Run the Vite development server:
 
+```
 npm run dev
+```
 
-
-Open the App:
+#6. Open the App:
 Open your browser and navigate to http://localhost:5173 to enter Macondo.
 
 🕯️ Support the Project & Join the Patreon Community
