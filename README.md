@@ -37,27 +37,32 @@ Every two minutes, a subtle modal will appear, asking if you would care to hear 
 Follow these steps to run the application locally on your machine.
 
 Prerequisites
-
+'''
 Node.js (v18 or higher)
 
 A Google Gemini API Key (Free)
+'''
 
 Installation Steps
 
-Download the Release:
+#1. Download the Release:
 Go to the Releases tab on this GitHub repository and download the latest .zip or .tar.gz source code file. Extract it to a folder on your computer.
 
-Navigate to the Directory:
+#2. Navigate to the Directory:
 Open your terminal or command prompt and navigate to the extracted folder:
 
+'''
+sh
 cd macondo-lexicon
+'''
 
-
-Install Dependencies:
+#3. Install Dependencies:
 Install the necessary Node modules:
 
+'''
+sh
 npm install
-
+'''
 
 Configure the API Key:
 Open src/App.jsx (or your designated environment file if configured) and locate the Gemini API Configuration section. Add your Gemini API key:
