@@ -1,0 +1,91 @@
+🦋 Macondo Lexicon
+
+An AI-Powered Literary Vocabulary Coach — Inspired by Gabriel García Márquez
+
+Step into the world of Magical Realism. Macondo Lexicon is an interactive, immersive React application designed to help you master the Spanish literary vocabulary drawn from One Hundred Years of Solitude and the broader Latin American literary tradition.
+
+Featuring AI-generated stories, deep-dive cultural explanations, high-quality Web Speech synthesis, and spontaneous interruptions from the ghost of Márquez himself.
+
+✨ Aspects of the Platform
+
+🃏 Flashcards & Mastery Tracking
+
+Interactive tap-to-reveal cards containing the word, definition, an example sentence, and difficulty level. Mark words as "Mastered" to track your progress and unlock advanced features.
+
+🤖 Gemini AI Integrations
+
+The Lexicon is powered by the Gemini API to bring the magic of Macondo to life:
+
+✨ Ask Melquíades: Stuck on a word? Click the magic sparkles to consult the wise gypsy, Melquíades. The AI will explain the deeper literary, etymological, or cultural significance of the word within the context of Magical Realism.
+
+✨ Write My Macondo Story: Once you master a few words, the "Generate My Custom Story" button unlocks. The AI will weave your specifically mastered vocabulary into a brand-new, 2-to-3 paragraph English short story written in the melancholic, wondrous style of Gabriel García Márquez.
+
+🗣️ Enhanced Voice Synthesis
+
+The app aggressively searches your device for the highest-quality female TTS (Text-to-Speech) voices available (such as Microsoft Helena, Google español, or Samantha) to provide clear, beautiful, and slightly slowed-down pronunciations of words and sentences.
+
+📝 Quiz Mode & Lexicon Browser
+
+Test your knowledge with dynamic definition-to-word and word-to-definition quizzes. Alternatively, browse the massive 999+ word database, filtering by difficulty (Beginner to Advanced) and category (Supernatural, Emotion, Nature, etc.).
+
+⏳ The Márquez Interruptions
+
+Every two minutes, a subtle modal will appear, asking if you would care to hear a line from Márquez. If you accept, you will be presented with one of 99 beautifully translated bilingual quotes about love, time, and solitude.
+
+🚀 How to Run the GitHub Release
+
+Follow these steps to run the application locally on your machine.
+
+Prerequisites
+
+Node.js (v18 or higher)
+
+A Google Gemini API Key (Free)
+
+Installation Steps
+
+Download the Release:
+Go to the Releases tab on this GitHub repository and download the latest .zip or .tar.gz source code file. Extract it to a folder on your computer.
+
+Navigate to the Directory:
+Open your terminal or command prompt and navigate to the extracted folder:
+
+cd macondo-lexicon
+
+
+Install Dependencies:
+Install the necessary Node modules:
+
+npm install
+
+
+Configure the API Key:
+Open src/App.jsx (or your designated environment file if configured) and locate the Gemini API Configuration section. Add your Gemini API key:
+
+const apiKey = "YOUR_GEMINI_API_KEY_HERE";
+
+
+Start the Development Server:
+Run the Vite development server:
+
+npm run dev
+
+
+Open the App:
+Open your browser and navigate to http://localhost:5173 to enter Macondo.
+
+🕯️ Support the Project & Join the Patreon Community
+
+While the core Macondo Lexicon application is completely free to use, building and maintaining the massive vocabulary libraries and AI integrations takes time.
+
+If you love literature, language learning, and dark academia aesthetics, consider joining our Patreon Community to take your Spanish journey further:
+
+🥉 Macondo Resident (Tier 1): Gain access to our private Discord server to practice Spanish, discuss literature, and vote in monthly polls on which author we should adapt next (Borges? Isabel Allende?).
+
+🥈 Aureliano's Workshop (Tier 2): Perfect for serious language learners. Get monthly downloadable .apkg files to import our vocabulary directly into Anki (spaced-repetition software), plus beautifully formatted PDF study guides.
+
+🥇 Melquíades' Inner Circle (Tier 3): Join us for a 1-hour monthly live reading/study session over Discord where we read a chapter of a Latin American classic together. Plus, get your name immortalized in the app's credits as a dedicated patron.
+
+[Join the Patreon Community Here] (#) ---
+
+“Things have a life of their own, it's simply a matter of waking up their souls.”
