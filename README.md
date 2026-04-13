@@ -86,6 +86,6 @@ If you love literature, language learning, and dark academia aesthetics, conside
 
 🥇 Melquíades' Inner Circle (Tier 3): Join us for a 1-hour monthly live reading/study session over Discord where we read a chapter of a Latin American classic together. Plus, get your name immortalized in the app's credits as a dedicated patron.
 
-[Join the Patreon Community Here] (#) ---
+[Join the Patreon Community Here] https://patreon.com/SpecialtyConsultants
 
 “Things have a life of their own, it's simply a matter of waking up their souls.”
